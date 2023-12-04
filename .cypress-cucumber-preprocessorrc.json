@@ -1,0 +1,11 @@
+{
+    "json":{
+        "enabled":false,
+        "output":"jsonreport/test.json"
+    },
+    "stepDefinitions": [
+        "cypress/e2e/[filepath]/**/*.{js,ts}",
+        "cypress/e2e/[filepath].{js,ts}",
+        "cypress/e2e/test/main/step_definitions/**/*.{js,ts}"
+      ]
+}

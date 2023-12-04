@@ -1,0 +1,25 @@
+{
+  "name": "maxtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "cypress open",
+    "cypress:execution": "cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.0",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.19.8"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0"
+  }
+}
