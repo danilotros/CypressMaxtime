@@ -21,3 +21,7 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- script: |
+    npm run cypress:run
+  displayName: 'cypress open'  
